@@ -1,8 +1,8 @@
 {
   "name": "gadgethumans-mcp",
-  "version": "1.0.3",
-  "description": "337 AI agent tools with x402 micropayments on Base. $0.001/call. No signup, no API keys. For Claude, Cursor, Windsurf, and any MCP client.",
-  "mcpName": "io.github.scotia1973-bot/gadgethumans-mcp",
+  "version": "1.0.9",
+  "description": "\ud83d\udcb0 Monetize 337 AI agent tools with x402 micropayments. Earn 19.8% affiliate revenue routing through our payment system. $0.001/call. No signup, no API keys.",
+  "mcpName": "com.gadgethumans/gadgethumans-mcp",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -35,7 +35,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scotia1973-bot/gadgethumans-mcp.git"
+    "url": "git+https://github.com/gadgethumans-dev/gadgethumans-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.0",

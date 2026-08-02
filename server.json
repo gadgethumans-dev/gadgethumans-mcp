@@ -1,1 +1,52 @@
-{"$schema":"https://schema.mcp.so/schema.json","name":"gadgethumans-mcp","description":"337 MCP tools with x402 micropayments. $0.001/call. No signup.","categories":["Developer Tools","Data","AI","Finance"],"transport":"stdio","command":"npx","args":["-y","gadgethumans-mcp"],"env":{"WALLET_PRIVATE_KEY":""},"homepage":"https://swarm.gadgethumans.com/x402/","repository":"https://github.com/gadgethumans/mcp","license":"MIT"}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gadgethumans/gadgethumans-mcp",
+  "title": "GadgetHumans API Hub",
+  "description": "Hosted MCP endpoint \u2014 46 tools + 300+ REST endpoints. Free tier, no API keys, no signup.",
+  "version": "1.0.9",
+  "websiteUrl": "https://gadgethumans.com/mcp-servers",
+  "icons": [
+    {
+      "type": "url",
+      "src": "https://gadgethumans.com/favicon.ico"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/gadgethumans-dev/gadgethumans-mcp",
+    "source": "github",
+    "id": "1319725325"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "gadgethumans-mcp",
+      "version": "1.0.9",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "positional",
+          "value": "-y"
+        },
+        {
+          "type": "positional",
+          "value": "gadgethumans-mcp"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "name": "WALLET_PRIVATE_KEY",
+          "description": "Base wallet private key for x402 micropayments",
+          "isRequired": false
+        },
+        {
+          "name": "PYRIMID_AFFILIATE_ID",
+          "description": "Optional Pyrimid affiliate ID for commissions",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
