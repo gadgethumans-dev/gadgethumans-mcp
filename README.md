@@ -58,7 +58,7 @@ Auto-detects Claude Code, Cursor, Cline, or Codex and wires the endpoint in. Or 
 {
   "mcpServers": {
     "gadgethumans": {
-      "url": "https://swarm.gadgethumans.com/mcp"
+      "url": "https://api.gadgethumans.com/mcp"
     }
   }
 }
