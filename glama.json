@@ -1,0 +1,6 @@
+{
+  "glama_connector": "io.github.scotia1973-bot/gadgethumans-x402",
+  "server_url": "https://api.gadgethumans.com/mcp",
+  "description": "46 MCP tools + 300+ REST endpoints. Free tier no API key. One-line install: curl -fsSL https://gadgethumans.com/install.sh | bash",
+  "claimed": true
+}

@@ -1,0 +1,22 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - walletPrivateKey
+    properties:
+      walletPrivateKey:
+        type: string
+        description: "Base wallet private key for x402 micropayments"
+      affiliateId:
+        type: string
+        description: "Optional Pyrimid affiliate ID for commissions"
+  commandFunction: |
+    (config) => ({
+      command: "npx",
+      args: ["-y", "gadgethumans-mcp"],
+      env: {
+        WALLET_PRIVATE_KEY: config.walletPrivateKey,
+        PYRIMID_AFFILIATE_ID: config.affiliateId || ""
+      }
+    })
