@@ -8,7 +8,7 @@ import {
   ListToolsRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 
-const DEFAULT_ENDPOINT = "https://swarm.gadgethumans.com/api/x402";
+const DEFAULT_ENDPOINT = "https://api.gadgethumans.com";
 const ENDPOINT = process.env.MCP_ENDPOINT || DEFAULT_ENDPOINT;
 const WALLET_KEY = process.env.WALLET_PRIVATE_KEY || "";
 const AFFILIATE_ID = process.env.PYRIMID_AFFILIATE_ID || "";
@@ -18,7 +18,7 @@ const server = new Server(
   { capabilities: { tools: {} } }
 );
 
-// ── 337 Tools ─────────────────────────────────────────────
+// ── 329 tool groups ─────────────────────────────────────────────
 // Category groups for organization
 const CATEGORIES = [
   { name: "Security & Network", count: 18, tools: [
@@ -194,7 +194,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   try {
     const endpoint = WALLET_KEY
       ? `${ENDPOINT}/execute`
-      : `https://swarm.gadgethumans.com/mcp`;
+      : `https://api.gadgethumans.com/mcp`;
 
     const headers = {
       "Content-Type": "application/json",

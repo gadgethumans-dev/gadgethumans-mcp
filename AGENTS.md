@@ -1,6 +1,6 @@
 # AGENTS.md — For AI agents using GadgetHumans
 
-You have access to **GadgetHumans MCP** — 46 MCP tools + 300+ REST endpoints through `call_api`. No API keys required on the free tier (100 requests/day).
+You have access to **GadgetHumans MCP** — 46 MCP tools + 300+ REST endpoints through `call_api`. No API keys required on the free tier (5 requests/day; Pro $2.99/mo = 500/day).
 
 ## Quick start (for you, the agent)
 

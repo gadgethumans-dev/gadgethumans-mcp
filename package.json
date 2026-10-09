@@ -1,7 +1,7 @@
 {
   "name": "gadgethumans-mcp",
-  "version": "1.0.9",
-  "description": "\ud83d\udcb0 Monetize 337 AI agent tools with x402 micropayments. Earn 19.8% affiliate revenue routing through our payment system. $0.001/call. No signup, no API keys.",
+  "version": "1.0.10",
+  "description": "GadgetHumans MCP \u2014 46 free MCP tools (memory, weather, crypto, DNS, text, code) plus 329 REST endpoints via one hosted endpoint. No API key on the free tier; Pro $2.99/mo.",
   "mcpName": "com.gadgethumans/gadgethumans-mcp",
   "type": "module",
   "main": "index.js",
@@ -45,5 +45,9 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "homepage": "https://gadgethumans.com/mcp-servers",
+  "bugs": {
+    "url": "https://github.com/gadgethumans-dev/gadgethumans-mcp/issues"
   }
 }

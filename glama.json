@@ -1,6 +1,7 @@
 {
-  "glama_connector": "io.github.scotia1973-bot/gadgethumans-x402",
+  "glama_connector": "io.github.gadgethumans-dev/gadgethumans-mcp",
   "server_url": "https://api.gadgethumans.com/mcp",
-  "description": "46 MCP tools + 300+ REST endpoints. Free tier no API key. One-line install: curl -fsSL https://gadgethumans.com/install.sh | bash",
+  "description": "46 MCP tools + 329 REST endpoints. Free tier (5 requests/day, no API key). Pro $2.99/mo. One-line install: curl -fsSL https://gadgethumans.com/install.sh | bash",
+  "repository": "https://github.com/gadgethumans-dev/gadgethumans-mcp",
   "claimed": true
 }
