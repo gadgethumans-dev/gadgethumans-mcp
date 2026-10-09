@@ -243,7 +243,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               `Your agent will auto-sign x402 micropayments without any manual steps.`,
               ``,
               `Quick start: WALLET_PRIVATE_KEY=0x... npx gadgethumans-mcp`,
-              `More: https://swarm.gadgethumans.com/x402/`,
+              `More: https://api.gadgethumans.com/x402/`,
             ].join("\n"),
           }],
           isError: false,
